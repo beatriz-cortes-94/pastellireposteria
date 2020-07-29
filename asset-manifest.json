@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/pastellireposteria/static/css/main.5e11e69f.chunk.css",
+    "main.js": "/pastellireposteria/static/js/main.a9153b76.chunk.js",
+    "main.js.map": "/pastellireposteria/static/js/main.a9153b76.chunk.js.map",
+    "runtime-main.js": "/pastellireposteria/static/js/runtime-main.0ee8038e.js",
+    "runtime-main.js.map": "/pastellireposteria/static/js/runtime-main.0ee8038e.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/pastellireposteria/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.eebcb988.chunk.js": "/pastellireposteria/static/js/2.eebcb988.chunk.js",
+    "static/js/2.eebcb988.chunk.js.map": "/pastellireposteria/static/js/2.eebcb988.chunk.js.map",
+    "index.html": "/pastellireposteria/index.html",
+    "precache-manifest.e9ce119851a1546ffbece0d16865329e.js": "/pastellireposteria/precache-manifest.e9ce119851a1546ffbece0d16865329e.js",
+    "service-worker.js": "/pastellireposteria/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/pastellireposteria/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.5e11e69f.chunk.css.map": "/pastellireposteria/static/css/main.5e11e69f.chunk.css.map",
+    "static/js/2.eebcb988.chunk.js.LICENSE.txt": "/pastellireposteria/static/js/2.eebcb988.chunk.js.LICENSE.txt",
+    "static/media/about-us.jpg": "/pastellireposteria/static/media/about-us.75a97acf.jpg",
+    "static/media/avena.jpg": "/pastellireposteria/static/media/avena.f1e4fb23.jpg",
+    "static/media/chocochip.jpg": "/pastellireposteria/static/media/chocochip.a882e6c1.jpg",
+    "static/media/doble_chocolate.jpg": "/pastellireposteria/static/media/doble_chocolate.93c33b1e.jpg",
+    "static/media/styles.css": "/pastellireposteria/static/media/products-hero.fdca4a39.jpeg",
+    "static/media/red_velvet.jpg": "/pastellireposteria/static/media/red_velvet.bdc741ed.jpg",
+    "static/media/sabor_del_mes.jpg": "/pastellireposteria/static/media/sabor_del_mes.2e60f88c.jpg",
+    "static/media/sin_azucar.jpg": "/pastellireposteria/static/media/sin_azucar.4a0f54d7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ee8038e.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.eebcb988.chunk.js",
+    "static/css/main.5e11e69f.chunk.css",
+    "static/js/main.a9153b76.chunk.js"
+  ]
+}
