@@ -1,0 +1,64 @@
+.about-us-header {
+  padding: 5% 5% 0;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.about-us-title {
+  font-family: ivymode, sans-serif;
+  font-weight: 300;
+  font-size: 3.5em;
+  line-height: 1.5em;
+  color: #f38375;
+}
+
+.center-img {
+  text-align: center;
+}
+
+.about-us-img {
+  padding-bottom: 10%;
+  width: 80%;
+}
+
+.about-us-body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  color: #454f5b;
+  padding: 3% 10% 6%;
+}
+
+.about-us-txt {
+  text-align: left;
+}
+
+@media screen and (min-width: 700px) {
+  #container-section {
+    padding: 5%;
+  }
+
+  .about-us-body {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #container-section {
+    padding: 5% 10%;
+  }
+
+  .about-us-title {
+    font-size: 4em;
+  }
+
+  .about-us-body {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .about-us-img {
+    width: 40%;
+  }
+}

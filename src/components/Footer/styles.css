@@ -1,0 +1,25 @@
+#footer {
+  background-color: #f38375;
+  padding: 5%;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.footer-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.social-icon {
+  margin: 2%;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1080px) {
+  #footer {
+    padding: 1%;
+  }
+}

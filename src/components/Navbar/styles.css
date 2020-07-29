@@ -1,0 +1,60 @@
+.navbar {
+  padding: 2em 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar.navbar-home {
+  padding-top: 0px;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  line-height: 1.5em;
+  letter-spacing: 0.2em;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+.nav-link {
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.navbar .navbar-toggler {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.close-icon {
+  height: 3px;
+  margin-bottom: 6px;
+  background-color: #f38375;
+}
+
+.top-line {
+  width: 35px;
+}
+.middle-line {
+  width: 30px;
+}
+.bottom-line {
+  width: 25px;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  display: inline;
+}
+
+.navbar-img {
+  width: 8em;
+  height: 2.3em;
+}

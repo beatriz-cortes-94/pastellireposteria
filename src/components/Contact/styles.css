@@ -1,0 +1,95 @@
+.contact-header {
+  padding: 5% 5% 0;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.contact-title {
+  font-family: ivymode, sans-serif;
+  font-weight: 300;
+  font-size: 3.5em;
+  line-height: 1.5em;
+  color: #f38375;
+}
+
+#contact-container-section {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 200;
+  font-size: 1.75em;
+  line-height: 1.5em;
+  padding: 5% 8%;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.contact-email-form {
+  padding: 8% 8% 15%;
+  line-height: 1.5em;
+}
+
+.contact-form-label {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  letter-spacing: 0.25em;
+  padding-bottom: 4%;
+}
+
+.contact-form-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  width: 100%;
+  padding: 2%;
+  margin-bottom: 7%;
+}
+
+.action-button {
+  align-content: center;
+}
+
+.send-button {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  letter-spacing: 0.25em;
+  display: inline-block;
+  color: #f38375 !important;
+  height: auto;
+  width: auto;
+  padding: 10px 20px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: #f38375;
+  background-color: #ffffff;
+  vertical-align: top;
+  border-radius: 100px;
+}
+.send-button:hover {
+  position: relative;
+  color: #f38375;
+  border-color: #f38375;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 700px) {
+  .contact-email-form {
+    padding: 5% 15%;
+  }
+
+  .contact-form-label {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .contact-email-form {
+    padding: 5% 25% 12%;
+  }
+
+  .contact-form-label {
+    font-size: 1.75em;
+    padding-bottom: 2%;
+  }
+}

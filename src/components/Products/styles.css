@@ -1,0 +1,47 @@
+.jumbotron-prod {
+  background-image: url("./../../assets/backgrounds/products-hero.jpeg");
+  position: relative;
+  top: -95px;
+  background-size: cover;
+  background-position: 100% 30%;
+  margin-bottom: 0;
+  border-color: gray;
+  margin-bottom: -95px;
+  min-height: 30em;
+}
+
+.products-section {
+  margin: 0 4%;
+  color: #ffffff;
+}
+.card {
+  border: white;
+  padding-bottom: 5%;
+}
+
+.card-header {
+  border: white;
+}
+
+.card-body {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
+  color: #454f5b;
+  text-align: left;
+}
+
+.card-title {
+  font-family: ivymode, sans-serif;
+  font-weight: 400;
+  color: #f38375;
+}
+
+@media screen and (min-width: 1000px) {
+  .jumbotron-prod {
+    min-height: 50em;
+  }
+  .card-body {
+    font-size: 2em;
+  }
+}
