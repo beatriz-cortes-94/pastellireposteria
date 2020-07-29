@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93f6f18d13b0daaf3443b554107e12af",
+    "revision": "ebf0cb9a5b60c1f596adfe66a03b728d",
     "url": "/pastellireposteria/index.html"
   },
   {
-    "revision": "cc7b8b6426ddf2cbe5bb",
+    "revision": "a5e1f8b8532bde45a6f4",
     "url": "/pastellireposteria/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "566e49c39e08cb5985cc",
+    "revision": "7962fab00aff0f09c364",
     "url": "/pastellireposteria/static/css/main.5e11e69f.chunk.css"
   },
   {
-    "revision": "cc7b8b6426ddf2cbe5bb",
-    "url": "/pastellireposteria/static/js/2.eebcb988.chunk.js"
+    "revision": "a5e1f8b8532bde45a6f4",
+    "url": "/pastellireposteria/static/js/2.a6c13a18.chunk.js"
   },
   {
     "revision": "618d9e067b5f7c0ee048a43ae1109b7d",
-    "url": "/pastellireposteria/static/js/2.eebcb988.chunk.js.LICENSE.txt"
+    "url": "/pastellireposteria/static/js/2.a6c13a18.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "566e49c39e08cb5985cc",
-    "url": "/pastellireposteria/static/js/main.a9153b76.chunk.js"
+    "revision": "7962fab00aff0f09c364",
+    "url": "/pastellireposteria/static/js/main.b46ab2b0.chunk.js"
   },
   {
     "revision": "2eb3cd3740a0e3d47723",

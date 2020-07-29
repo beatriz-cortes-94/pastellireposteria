@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pastellireposteria/precache-manifest.e9ce119851a1546ffbece0d16865329e.js"
+  "/pastellireposteria/precache-manifest.271441b291aa08ab071c316bcdcae14b.js"
 );
 
 self.addEventListener('message', (event) => {
