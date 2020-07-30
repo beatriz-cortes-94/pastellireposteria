@@ -2,7 +2,11 @@ import React from "react";
 import regalo from "./../../assets/icons/regalo.png";
 import "./styles.css";
 
-const GiftPopUP = (pageId) => {
+const GiftPopUP = (closePopUp) => {
+  const handleClick = () => {
+    closePopUp.closePopUp();
+  };
+
   const message =
     "Escribe un breve mensaje y nosotros lo agregaremos a tu envío.";
 
@@ -16,9 +20,9 @@ const GiftPopUP = (pageId) => {
         <div className="popup-subtitle">
           <p>{message}</p>
         </div>
-        <a className="close-button" href={`#/products/${pageId.productId}`}>
+        <button className="close-button" onClick={handleClick}>
           <i className="fas fa-times fa-2x"></i>
-        </a>
+        </button>
       </section>
     </div>
   );

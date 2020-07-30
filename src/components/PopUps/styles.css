@@ -75,10 +75,14 @@
   top: -5%;
   right: 0px;
   color: #f38375;
+  background-color: white;
+  border: 0;
 }
 
 .close-button:hover {
   color: #f38375;
+  background-color: white;
+  border: 0;
 }
 
 @media screen and (min-width: 768px) {

@@ -10,7 +10,7 @@ const ProductsCarousel = () => {
         id="carouselExampleControls"
         className="carousel slide"
         data-ride="carousel"
-        data-interval="3000"
+        data-interval="2000"
       >
         <div className="carousel-inner">
           {ProductsInformation.map((p) => {

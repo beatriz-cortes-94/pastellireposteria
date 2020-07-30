@@ -24,7 +24,7 @@ const ProductDetails = ({ match }) => {
     }
   };
 
-  const openPopUp = () => {
+  const handlePopUp = () => {
     setGiftStatus(!giftStatus);
   };
 
@@ -87,13 +87,15 @@ const ProductDetails = ({ match }) => {
             id="product-description-container-section"
             className="buy-for-gift-section"
           >
-            <button className="gift-link" onClick={openPopUp}>
+            <button className="gift-link" onClick={handlePopUp}>
               COMPRAR PARA REGALO
             </button>
           </section>
         </div>
       </div>
-      <section>{giftStatus ? <GiftPopUP productId={p.id} /> : null}</section>
+      <section>
+        {giftStatus ? <GiftPopUP closePopUp={handlePopUp} /> : null}
+      </section>
       <Footer />
     </div>
   );
