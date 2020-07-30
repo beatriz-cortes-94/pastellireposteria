@@ -16,7 +16,7 @@ const GiftPopUP = (pageId) => {
         <div className="popup-subtitle">
           <p>{message}</p>
         </div>
-        <a className="close-button" href={`/products/${pageId.productId}`}>
+        <a className="close-button" href={`#/products/${pageId.productId}`}>
           <i className="fas fa-times fa-2x"></i>
         </a>
       </section>
