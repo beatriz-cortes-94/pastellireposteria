@@ -22,28 +22,28 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" href="/">
+            <a className="nav-link" href="#/">
               Home <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/products">
+            <a className="nav-link" href="#/products">
               Productos
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">
+            <a className="nav-link" href="#/about">
               Conócenos
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact">
+            <a className="nav-link" href="#/contact">
               Contacto
             </a>
           </li>
         </ul>
       </div>
-      <a className="navbar-brand" href="/">
+      <a className="navbar-brand" href="#/">
         <img src={logo} alt="Our Products" className="navbar-img" />
       </a>
       <div></div>

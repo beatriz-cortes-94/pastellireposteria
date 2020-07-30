@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../Navbar/navbar";
 import Footer from "../Footer/footer";
 import Image from "./../../assets/backgrounds/about-us.jpg";
 import "./styles.css";
 
 const About = () => {
+  useEffect(() => {
+    document.querySelector("body").scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Navbar />

@@ -17,7 +17,7 @@ const EmailPopUP = (status) => {
         <p>{message}</p>
       </div>
       <div className="popup-header">
-        <a className="back-home-button" href="/">
+        <a className="back-home-button" href="#/">
           VOLVER A INICIO
         </a>
       </div>

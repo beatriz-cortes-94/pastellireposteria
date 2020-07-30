@@ -12,7 +12,7 @@ const Footer = () => {
           <a href="https://www.facebook.com/PastelliReposteriaMx/">
             <i className="social-icon fab fa-facebook-square fa-3x"></i>
           </a>
-          <a href="/contact">
+          <a href="#/contact">
             <i className="social-icon fas fa-envelope fa-3x"></i>
           </a>
           <p className="footer-brand">© 2020 Pastelli</p>

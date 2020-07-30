@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar/navbar";
 import Footer from "../Footer/footer";
@@ -6,6 +6,10 @@ import ProductsInformation from "../Product/products-information";
 import "./styles.css";
 
 const Products = () => {
+  useEffect(() => {
+    document.querySelector("body").scrollTo(0, 0);
+  }, []);
+
   return (
     <div className=".container-xl">
       <Navbar />

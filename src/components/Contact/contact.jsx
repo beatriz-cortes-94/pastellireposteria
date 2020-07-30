@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
 import Navbar from "../Navbar/navbar";
 import Footer from "../Footer/footer";
@@ -11,6 +11,10 @@ const Contact = () => {
   const [feedback, setFeedback] = useState("");
   const [emailStatus, setEmailStatus] = useState(false);
   const [popUpWindow, setPopUpWindow] = useState(false);
+
+  useEffect(() => {
+    document.querySelector("body").scrollTo(0, 0);
+  }, []);
 
   const handleFeedback = (event) => {
     setFeedback(event.target.value);

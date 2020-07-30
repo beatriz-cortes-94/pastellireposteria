@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./header";
 import Navbar from "../Navbar/navbar";
 import Footer from "../Footer/footer";
@@ -9,6 +9,10 @@ import galleta from "./../../assets/icons/galleta.png";
 import "./styles.css";
 
 const Home = () => {
+  useEffect(() => {
+    document.querySelector("body").scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <section>
@@ -22,7 +26,7 @@ const Home = () => {
               <div className="innest">
                 <div className="title">Hornear nunca fue tan fácil</div>
                 <div id="shop-button">
-                  <a className="shop-button" href="/products">
+                  <a className="shop-button" href="#/products">
                     COMPRAR
                   </a>
                 </div>
@@ -39,7 +43,7 @@ const Home = () => {
           Nuestra misión es preparar masa para galletas de la más alta calidad,
           para que nuestros clientes horneen galletas perfectas siempre.
         </p>
-        <a className="about-us-button" href="/about">
+        <a className="about-us-button" href="#/about">
           CONÓCENOS
         </a>
       </section>
@@ -69,7 +73,7 @@ const Home = () => {
         <p className="products-title">Nuestros Productos</p>
         <ProductsCarousel />
         <div id="shop-button">
-          <a className="shop-button" href="/products">
+          <a className="shop-button" href="#/products">
             COMPRAR
           </a>
         </div>
